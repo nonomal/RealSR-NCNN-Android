@@ -81,7 +81,7 @@ jobs:
 
 
       - name: Set up CUDA ${{ matrix.cuda }}
-        uses: Jimver/cuda-toolkit@v0.2.23
+        uses: Jimver/cuda-toolkit@v0.2.25
         with:
           cuda: ${{ matrix.cuda }}
 
